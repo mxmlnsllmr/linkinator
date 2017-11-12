@@ -1,4 +1,4 @@
-# gatsby-starter-hello-world
+# Linkinator for displaying Links in Webbrowser
 Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
