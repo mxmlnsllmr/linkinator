@@ -1,5 +1,15 @@
 # Linkinator for displaying Links in Webbrowser
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+start with a npm install --global gatsby-cli
+After that do a npm install in the working directory
+
+Then you are able to do an 
+gatsby develop
+```
+(for developing server on Port 8000)
+Or you do an 
+gatsby build
+```
+for building
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
