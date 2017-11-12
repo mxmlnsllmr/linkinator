@@ -23,6 +23,11 @@ const WideInput = styled.input`
     }
 `
 
+const FormContainer = styled.form`
+    width: 100%;
+`
+
+
 const Wrapper = styled.div `
     display: flex;
     justify-content: center;
@@ -48,9 +53,9 @@ class IndexPage extends Component {
     return(
         <div>
             <Wrapper>
-                <form>
-                    <WideInput type="text" placeholder="Input" value={this.state.value} onChange={this.handleChange} />
-                </form>
+                <FormContainer>
+                    <WideInput type="text" placeholder="Type in text" value={this.state.value} onChange={this.handleChange} />
+                </FormContainer>
             </Wrapper>
             <Wrapper>
                 <BigText>{this.state.value}</BigText>
