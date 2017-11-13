@@ -1,5 +1,8 @@
 # Linkinator for displaying Links in Webbrowser
-start with a npm install --global gatsby-cli
+start with a 
+```
+npm install --global gatsby-cli
+```
 After that do a npm install in the working directory
 
 Then you are able to do an 
@@ -12,5 +15,7 @@ Or you do an
 gatsby build
 ```
 for building
+
+Demo: https://mxmlnsllmr.github.io/linkinator/
 
 for further information checkout: https://github.com/gatsbyjs/gatsby
