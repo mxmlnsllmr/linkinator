@@ -15,6 +15,12 @@ const WideInput = styled.input`
   outline: none;
   border-bottom: 3px solid #3c4448;
   font-family: Roboto Slab, sans-serif;
+  
+  &:focus {
+    + .input-highlight {
+      border-top: 3px solid #E50064;
+    }
+  }
 `
 
 const HighlightInput = styled.span`
